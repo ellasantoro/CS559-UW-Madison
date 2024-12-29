@@ -1,0 +1,4 @@
+Name: Anonymous
+Note: Hi, my train isn't complete yet, and still has some bugs and such that need to be fixed. In the video,
+I showed that I have made a track that can move points, and as for advanced points I completed the smoke and the
+tension slider. I am still working on making the train look more train-like and the rail look more like a railroad track.
