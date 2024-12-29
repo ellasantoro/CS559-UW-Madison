@@ -1,0 +1,17 @@
+Student explains where in the picture they connected Beziers for G(1) or C(1) continuity.
+
+My shape has G(1) continuity in the cone shape of the ice cream. As you can see in the following code:
+LINE 1: context?.moveTo(160, 200);
+LINE 2: context?.bezierCurveTo(171,273,206,300,230,230);
+LINE 3: context?.bezierCurveTo(254, 160, 245, 193, 220, 180);
+LINE 4: context?.bezierCurveTo(195, 167, 133, 193, 160, 200);
+
+the slope of the end of a curve is the same as the slope of the start of the next curve.
+For example in line 2, we see that the difference in x (206 -> 230 is 24), so the start x value
+of the next curve is 230 (end point of curve 1) + 24 , which is 254. repeat this process with y.
+this concept applies to all of the curves in this cone shape.
+
+Ensuring that the slopes are continuous ensures that it has G(1) continuity.
+
+(please note that the other shapes/curves do not have this property, and the cone shape alone is my
+G(1) continuous curve(s)).

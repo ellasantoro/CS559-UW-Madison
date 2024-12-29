@@ -1,0 +1,14 @@
+a0 = 10, 5
+a1 = 20, 40
+a2 = 5, 10
+a3 = 15, 20
+
+(for the x component, using these a's as coefficients for u = 1 (the end of the cubic), 
+we will get it to equal to the desired end point (50): 10 + 20 + 5 + 15 = 50...
+similarly with the y component where we want the desired end point to be 75:
+5 + 40 + 10 + 20 = 75 -> recall this is because u = 1 at this point)
+please replace the ? with numbers
+
+NOTES:
+starts (u = 0) @ 10,5
+ends @ 50,75

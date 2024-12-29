@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="200px">
+    <path stroke="red" fill ="none" stroke-width="5" d="M20,20 C 56,20 80,32 100,46" />
+    <path stroke="green" fill ="none" stroke-width="5" d="M100,46 C 120,60 136,76 156,84" />
+    <path stroke="blue" fill ="none" stroke-width="5" d="M156,84 C 182,92 200,92 236,74" />
+</svg>
+
+<!-- use decasteljau construction for this:
+ORIGINAL CURVE FOR REFERENCE:
+<path stroke="black" fill ="none" stroke-width="5" d="M20,20 C 128,20 128,128 236,74" />
+
+red part:
+start with the given start, 20,20
+C1 = (2/3) * (20, 20) + (1/3) * (128, 20) = (56, 20)
+C2 = (2/3) * (56, 20) + (1/3) * (128, 20) = (80, 32)
+C3 = (2/3) * (80, 32) + (1/3) * (128, 128) = (100, 46)
+
+green part:
+C0 = (100, 46)
+C1 = (1/3) * (100, 46) + (2/3) * (128, 128) = (116, 70)
+C2 = (1/3) * (116, 70) + (2/3) * (128, 128) = (128, 84)
+C3 = (1/3) * (128, 84) + (2/3) * (236, 74) = (156, 84)
+
+blue part:
+C0 =(156, 84)
+C1 = (2/3) * (156, 84) + (1/3) * (236, 74) = (182, 92)
+C2 = (2/3) * (156, 84) + (1/3) * (236, 74) = (200, 92)
+and simply end with the given end, 236, 74
+
+
+-->
