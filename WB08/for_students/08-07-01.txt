@@ -1,0 +1,4 @@
+Please describe the vehicles you created and how you made them in this file 08-07-01.txt
+I created a red care using Buffer Geometry - it had lots of ridges and slanted squares (made up of triangles),
+and it uses cylinder geometry for the wheels. The texture is on the front of the car as the windshield wiper. Because the color
+of the car is a bit dark, I think you'll have to zoom in just a tad to see the windshield wiper.

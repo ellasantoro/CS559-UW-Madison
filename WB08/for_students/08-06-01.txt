@@ -1,0 +1,38 @@
+Please describe the buildings you created in this file 08-06-01.txt
+Explain how you made the buildings. 
+
+I created three buildings: a larger house with roof outlooks, a smaller house with
+a pyramid roof, and a castle with towers and cone roofs. 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Building 1: Small white house with blue pyramid roof
+- house base was built using two triangles per square, and each square serving as a face
+  of the cube. the roof was made using 4 triangles as sides and one square (two triangles) as
+  the bottom which creates the closed roof shape. the roof is slightly larger than the cube so that
+  it creates some overhang & dimension for aesthetic purposes. 
+
+- texture: there is a door mapped on using the texture loader and uvs. uvs were calculated by hand using
+  the method learned in class, but because the door image had no padding around the actual door part, I had to
+  use negative numbers to "shrink" the image so that it would fit nicely onto the building.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Building 2: Castle with towers
+- this building is the only building that uses some three geometries like cylinder and cone,
+  but it does still use quite a bit of buffer geometry as well. each tower is made of a cylinder,
+  and each roof is made of a cone. The walls are made out of 6 triangles each - there is an outer face and an
+  inner face for each of the front, back, left side, and right side walls, as well as a top for all of those as well.
+
+- texture: this castle uses a brick texture (it may be harder to see with the darker color I chose, but if you zoom in just a tad
+  it should be very easy to see, and is scaled right using uvs). The texture mapping does not use UVS on the cone and cylinder since
+  they are not buffer geometries. the texture mapping DOES use uvs on every triangle within the walls of the castle.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Building 3: Larger house with brown roof and roof outlooks
+- this house is the most different in terms of meshes made compared to the other buildings. it uses the same simple
+  base (just that its rectangular) with two triangles per face, but for the roof we have two triangles on the front and back,
+  and then two slanted rectangles connecting them (these are each made of two slanted triangles). Then, there are little parts 
+  of the roof that come outwards (I looked this up and it says its called a dormer). The dormer was originally going to be made of three triangles,
+  one in the front, and one on each side that is parallel to the original roof slant. This did work, but the dormer didnt come out as far as I wanted,
+  and to be able to have it farther out, I would have to turn the triangle sides into rectangles so that the parts would still connect. As I was fixing it,
+  I realized I was able to just make one long roof portion that peeks out on each side. so that is what I did. I have a similar shape to the original roof of this
+  building, but going in a different direction, and smaller. 
+
+- texture: I used a window texture for these houses, which was done using uvs and texture loader. It can be found on the sides of this
+  house.

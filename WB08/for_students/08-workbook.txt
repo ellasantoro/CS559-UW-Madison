@@ -1,0 +1,43 @@
+Wisc ID: isantoro
+GitHub ID: ellasantoro
+
+[X] correct WB8 Canvas Assignment submission [none]: 
+[X] correct WB8G Canvas Assignment submission on time [none]: 
+[X] triangles correctly oriented (no holes in grid) [08-01-03]: 
+[X] Object 1 has (at least) 3 triangles [08-02-01]: 
+[X] Object 1 has colored triangles (with different colors) [08-02-01]: 
+[X] Object 2 has (at least) 3 triangles [08-02-01]: 
+[X] Object 2 has vertex colors where we can see blending [08-02-01]: 
+[X] Object 3 has (at least) 3 triangles [08-02-01]: 
+[X] Object 3 has normals that make things look smooth [08-02-01]: 
+[X] Code Check: objects build “manually” [08-02-01]: 
+[X] There are 2 dice [08-05-01]: 
+[X] Dice have numbers on their sides [08-05-01]: 
+[X] Dice have correct numbers on their sides [08-05-01]: 
+[X] The two dice show different numbers on top [08-05-01]: 
+[X] At least one domino [08-05-02]: 
+[X] The domino is a double 6 (correct texture) [08-05-02]: 
+[X] Building Type 1 [08-06-01]: 
+[X] Building 1 has texture [08-06-01]: 
+[X] Building Type 2 [08-06-01]: 
+[X] Building 2 has texture [08-06-01]: 
+[X] Has different roof type than 1 [08-06-01]: 
+[X] Tree or plant [08-06-01]: 
+[X] Car or Vehicle (looks like a car or other vehicle) [08-07-01]: 
+[X] Has texture (or at least coloring) [08-07-01]: 
+[ ] Rounded edges (Dice) [08-05-01]: 
+[ ] Rounded edges (Domino) [08-05-02]: 
+[X] More dominos (with different numbers) [08-05-02]: 
+[X] Legal domino arrangement (at least 4 dominos) [08-05-02]: legal domino placements are the ones on the floor
+[X] Building Type 3 - substantially different and described in text [08-06-01]: please see explanation in 08-06-01.txt, it describes in detail
+[X] Building Type 3 - different roof type than others [08-06-01]:  please see explanation in 08-06-01.txt, it describes in detail
+[ ] more than 1 vehicle type [08-07-01]: 
+
+If you have loaded any geometry from OBJ files, use the space below to credit your source for each file. Be sure to include a confirmation that you are permitted to use this asset (e.g., it is released under a Creative Commons license).
+
+You can follow this format, or something similar:
+
+- an-example-file.obj
+  - source: https://graphics.cs.wisc.edu/Courses/559-sp2021/
+  - author: username123
+ - license: CC BY 2.0
