@@ -1,0 +1,106 @@
+<!-- here is a big, empty SVG! make it into something interesting! -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="600px" width="600px">
+<!-- SOURCES (some are linked within)-->
+<!-- https://www.w3schools.com/graphics/svg_polygon.asp -->
+<!-- https://www.nan.fyi/svg-paths/arcs -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths -->
+   
+    <!--  rainbow arcs -->
+
+    <!-- TAKEN FROM  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths 
+    (I did not use this code, but this is what I based my arc off of / learned from)
+       <path d="M 10 315
+           L 110 215
+           A 30 50 0 0 1 162.55 162.45
+           L 172.55 152.45
+           A 30 50 -45 0 1 215.1 109.9
+           L 315 10" stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+           -->
+     <rect x="0" y="0" width="600" height="600" fill="#bae3e0" />
+    <path d="M 10 500
+        A 40 40 1 0 1 600 500 "
+        stroke="black" fill="red" stroke-width="2" fill-opacity="0.6"/>
+
+    <path d="M 30 500
+       A 30 30 1 0 1 580 500"
+       stroke="black" fill="orange" stroke-width="2" fill-opacity="0.5"/>
+
+    <path d="M 50 500
+       A 20 20 1 0 1 560 500"
+       stroke="black" fill="yellow" stroke-width="2" fill-opacity="0.5"/>
+
+    <path d="M 70 500
+       A 10 10 1 0 1 540 500"
+       stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+
+    <path d="M 90 500
+       A 1 1 1 0 1 520 500"
+       stroke="black" fill="blue" stroke-width="2" fill-opacity="0.5"/>
+
+     <path d="M 110 500
+       A -1 -1 1 0 1 500 500"
+       stroke="black" fill="#bae3e0" stroke-width="2" fill-opacity="1"/>
+
+    <!-- clouds -->
+    <circle cx="20" cy="480" r="50" stroke = "black" fill="white" stroke-width="1" fill-opacity="0.95"/>
+    <circle cx="100" cy="500" r="50" stroke = "black" fill="white" stroke-width="1" fill-opacity="0.95"/>
+    <circle cx="500" cy="500" r="50" stroke = "black" fill="white" stroke-width="1" fill-opacity="0.95"/>
+    <circle cx="580" cy="480" r="50" stroke = "black" fill="white" stroke-width="1" fill-opacity="0.95"/>
+    <circle cx="10" cy="10" r="50" fill="white" fill-opacity="0.8" />
+    <circle cx="210" cy="-10" r="60" fill="white" fill-opacity="0.8" />
+    <circle cx="130" cy="-10" r="80" fill="white" fill-opacity="0.8" />
+    <circle cx="80" cy="30" r="50" fill="white" fill-opacity="0.8" />
+    <circle cx="580" cy="100" r="20" fill="white" fill-opacity="0.8" />
+    <circle cx="415" cy="100" r="20" fill="white" fill-opacity="0.8"  />
+    <circle cx="550" cy="100" r="30" fill="white" fill-opacity="0.8" />
+    <circle cx="450" cy="100" r="30" fill="white" fill-opacity="0.8" />
+     <circle cx="500" cy="100" r="50" fill="white" fill-opacity="0.8" />
+
+    <!-- grass -->
+    <rect x="0" y="500" width="600" height="100" fill="#6e995c" />
+
+
+    <g id = "star">
+    <polygon points="6.25,360.5 2.5,372.5 11.875,364.875 0.625,364.875 10,372.5"
+    style="fill:white;stroke:white;stroke-width:0.05;" />
+    </g>
+
+    
+      <g id="flower">
+        <rect x="148" y="500" width="5" height="40" fill="#30613d"/>
+        <circle cx="154" cy="530" r="2" fill="#30613d" />
+        <circle cx="147" cy="535" r="2" fill="#30613d" />
+        <g id = "petals">
+            <circle cx="135" cy="500" r="10" fill="#fff2fd" />
+            <circle cx="165" cy="500" r="10" fill="#fff2fd" />
+            <circle cx="150" cy="513" r="10" fill="#fff2fd" />
+            <circle cx="150" cy="485" r="10" fill = "#fff2fd" />
+        </g>
+        <circle cx="150" cy="500" r="10" fill="#e6cd43" />
+    </g>
+    
+
+    <use xlink:href="#flower" transform="translate(100,180) scale(0.8)" />
+    <use xlink:href="#flower" transform="translate(300, 300) scale(0.5)" />
+    <use xlink:href="#flower" transform="translate(300,1) scale(1.2)" />
+    <use xlink:href="#flower" transform="translate(-130,20) scale(1.1)" />
+    <use xlink:href="#flower" transform="translate(30,300) scale(0.5)" />
+    <use xlink:href="#flower" transform="translate(170,120) scale(0.8)" />
+    <use xlink:href="#flower" transform="translate(400, -80) scale(1.2)" />
+    <use xlink:href="#flower" transform="translate(350,120) scale(0.8)" />
+    <use xlink:href="#star" transform="translate(10,10) scale(2)" />
+    <use xlink:href="#star" transform="translate(300,-100) scale(1.5)" />
+    <use xlink:href="#star" transform="translate(400,-200) scale(1.5)" />
+    <use xlink:href="#star" transform="translate(200, -600) scale(2)" />
+    <use xlink:href="#star" transform="translate(500, -500) scale(2)" />
+    <use xlink:href="#star" transform="translate(420, -700) scale(2)" />
+    <use xlink:href="#star" transform="translate(50, -680) scale(2)" />
+    <use xlink:href="#star" transform="translate(140, -300) scale(2)" />
+    <use xlink:href="#star" transform="translate(220, -550) scale(2.5)" />
+    <use xlink:href="#star" transform="translate(100, -140) scale(1)" />
+    <use xlink:href="#star" transform="translate(350, -200) scale(1)" />
+    <use xlink:href="#star" transform="translate(550, -350) scale(1.3)" />
+    <use xlink:href="#star" transform="translate(20, -320) scale(1.3)" />
+
+</svg>
+

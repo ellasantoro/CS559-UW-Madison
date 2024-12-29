@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="03-common.css" />
+</head>
+
+<body>
+    <canvas id="canvas1" height="600px" width="600px"></canvas>
+    <p><strong>Note to Graders: </strong>Please first click inside of the canvas once or twice (this
+        ensures that the page doesnt think you want to scroll), then you should be able to 
+        use the right and left arrow keys (not WASD) and it will change the direction of the helicopter adding
+        speed it up! (this is for the advanced point titled interaction.)
+    </p>
+    <script src="03-06-01.js" type="module" defer></script>
+
+<!-- The screenshot and record buttons -->
+    <br><button onclick="screenshot('canvas1')">Screenshot</button> <button
+        onclick="record('canvas1','time')">Record</button> <input id="time" type="text" size="2" value="10"> seconds.
+    <script type="module">
+        import { screenshot, record } from "../libs/CS559/saveCanvas.js";
+        window.screenshot = screenshot;
+        window.record = record;
+    </script>
+
+</body>
+
+</html>
+<!-- adding this comment to indicate I have read this box-->
