@@ -1,0 +1,6 @@
+Explain what your shader does and how it works.
+My shader uses an image for the texture, and it has specular and diffuse lighting. It also has light tan colored
+dots along the shape (a pattern with the image) that make the planet look more real with imperfections. The user can use
+the slider to change how many dots are reflected on the planet. There are also three light shaders that affect the direction
+of the light (x,y, and z). Animation is not done in the shader.
+

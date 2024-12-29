@@ -1,0 +1,7 @@
+Explain how your shader works. If your shader is based on some example, cite your source (with a link).
+
+My shader is kind of based off the last box, 10-06-01, I copied my code to use as starter code. My shader works by taking UV coordinates,
+scaling them so that the pattern is more "zoomed out", then it uses the step function to create a transition based on the distance
+from the center. The part that actually creates the unique puzzle shape is the line "float isWithinCheck = step(0.16, min(0.5 - decimalU, distanceFromEdge))".
+Basically it checks if the distance from the edge is ≥ 16, this makes the middle chunk look inverted, the left side goes out and the right side is pulled inward, since that
+is the value in step() that determines the boundary where step will transition.

@@ -1,0 +1,15 @@
+Where did you get your shader? Describe the source and include a link.
+I got my shader from https://shaderfrog.com/app/editor, it is from ShaderFrog and it 
+was created by Andrew Ray.
+
+
+
+In your own words, describe how this shader works. (3-5 sentences)
+
+The shader works by using the uniforms time, resolution (like size), intensity,
+speed, and colors for the design aspect / timing of the shader. it has what's called the
+circuit function that basically creates the pattern of the moving light by using
+transformations that use the time variable and the speed variable as well as the position given
+by the uvs. it calcuates the color based on the time / circuit output so that it looks like the color
+is moving - changes over time because of the time variable that we pass in.
+

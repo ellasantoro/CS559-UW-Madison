@@ -1,0 +1,8 @@
+Answer the question.
+We know that this is right because of the way the light is hitting the top.
+If it was only using the specular that we changed to white, there would be no yellow
+in this. It would just be white fading into black.
+
+On the other hand, if we just had diffuse, it would be just yellow fading into black with a more rigid fade, and matte-like
+texture (while the specular is more like a shiny texture). Combining them makes it look like there is yellow
+fading into black with a light shining down on it.

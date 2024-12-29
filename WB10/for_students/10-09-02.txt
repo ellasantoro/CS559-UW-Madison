@@ -1,0 +1,16 @@
+Where did the image come from? 
+The image came from https://www.pngegg.com/en/png-bncvh#google_vignette, its a texture of an 8ball
+
+
+
+
+What lighting did you implement?
+I implemented ambient and diffuse lighting to create a glowing 8-ball effect. I know that the image, if you look 
+at it already has some glow, but if you remove the lighting you'll see it glows way less, and that my lighting does create
+an effect on it
+
+
+Did you do anything beyond basic texure with diffuse lighting (explain)?
+N/A
+
+
