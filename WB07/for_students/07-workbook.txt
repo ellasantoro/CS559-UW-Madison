@@ -1,0 +1,44 @@
+Wisc ID: isantoro
+GitHub ID: ellasantoro
+
+[X] correct WB7 Canvas Assignment submission [none]: 
+[X] correct WB7G Canvas Assignment submission on time [none]: 
+[X] Some aircraft that isn’t a donut [07-06-01]: 
+[X] A propeller that spins (not the body) [07-06-01]: 
+[X] More than one propeller spinning (per aircraft) [07-06-01]: 
+[X] (at least) One aircraft that flies in a circle (or curved path) [07-06-01]: 
+[X] aircraft points forward as it moves [07-06-01]: 
+[X] multiple aircraft both moving, both with propellers [07-06-01]: my second aircraft has some issues, but it does move and have propellers, very sorry!!!
+[X] Radar dish (or some pointable object) [07-06-01]: 
+[X] Radar correctly points at aircraft (tracks as aircraft moves) - should use lookat [07-06-01]: 
+[X] take out bouncing cube [07-08-01]: 
+[X] place at least 1 more swing [07-08-01]: 
+[X] place carousel [07-08-01]: 
+[X] carousel has poles and ''horses'' [07-08-01]: 
+[X] carousel has correct motion (spins, horses go up and down) [07-08-01]: 
+[X] another moving object [07-08-01]: 
+[X] equipment 1 is identifiable (can tell what it is) [07-09-01]: My equipment1 is a Mini Loader that can dig, the cabin is kind of like that of a
+    golf cart cabin (see images online), so that is why i have a hollow square type shape. Degrees of freedom / UI's include x, z, theta, and the scooper
+    rotation.
+[X] equipment 2 is identifiable [07-09-01]: my equipment 2 is a garbage truck that is carrying a can in the front and can dump into the back part of the
+    truck. Degrees of freedom / UIs include x, z, theta, and arm rotation
+[X] equipment 1 has correct articulation [07-09-01]: x, z, theta, scooper rotation
+[X] equipment 2 has correct articulation [07-09-01]: x, z, theta, arm lift
+[X] UI works for 1&2 [07-09-01]: 
+[X] good use of colors/materials for all equipment (not just one color) [07-09-01]: used different colors like blue and green
+[ ] more complex motion [07-06-01]: 
+[ ] multiple types of aircraft - each with an articulation/propeller [07-06-01]: 
+[ ] more theme park rides (with hierarchical motion [07-08-01]: 
+[ ] more theme park rides (with hierarchical motion [07-08-01]: 
+[X] third machine identifyable with working articulation [07-09-01]: my third machine is a telescoping truck (see online), it can retract the telescope part and
+    make it longer and shorter (retract and extend). for UI it has x, z, theta, and retract/extending pole.
+[ ] at least one object has 4+ d.o.f. (beyond position/orientation) [07-09-01]: 
+
+If you have loaded any geometry from OBJ files, use the space below to credit your source for each file. Be sure to include a confirmation that you are permitted to use this asset (e.g., it is released under a Creative Commons license).
+
+You can follow this format, or something similar:
+
+- an-example-file.obj
+  - source: https://graphics.cs.wisc.edu/Courses/559-sp2021/
+  - author: username123
+ - license: CC BY 2.0
